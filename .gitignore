@@ -1,0 +1,43 @@
+# data files
+*.zip
+*.csv
+
+# documents
+*.docx
+*.pptx
+*.doc
+*.xls
+*.ppt
+*.log
+*.pdf
+*.json
+*.txt
+*.exe
+*.spec
+
+
+# # pictures
+# *.png
+# *.jpg
+
+
+
+# other py related files
+*.ipynb
+# Byte-compiled / optimized / DLL files
+__pycache__/
+build/
+dist/
+*.py[cod]
+*$py.class
+# other py related files
+*.ipynb
+*.pyc
+*.idea
+*.svn
+*.out
+
+# system
+*.sh
+*.bat
+*.out
