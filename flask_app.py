@@ -17,8 +17,7 @@ api.decorators = [cors.crossdomain(origin='*',\
     headers=['accept', 'Content-Type','Authorization'],methods={"HEAD","POST","GET",'OPTIONS','PUT','DELETE'})] ## 支持跨域
 
 # 配置SQLALCHEMY
-#app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://postgres:postgres@127.0.0.1/test"
-app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://root:root@182.92.69.24/towerbase"
+app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://postgres:postgres@127.0.0.1/test"
 app.config['SQLALCHEMY_COMMIT_TEARDOWN'] = True
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
 app.config['SQLALCHEMY_COMMIT_ON_TEARDOWN'] = True
